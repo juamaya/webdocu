@@ -16,6 +16,7 @@ const about = () => {
         title="Juan Marin"
         description="Curriculum"
         link="https://juamaya.github.io/curricujuan.github.io/"
+        btnLink='Ver Curriculum'
       />
     </div>
     <Footer />

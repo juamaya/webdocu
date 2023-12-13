@@ -23,6 +23,7 @@ const jobs = () => {
             title="web-router"
             description="Descripción de la tarjeta."
             link="https://juamaya.github.io/web-router"
+            btnLink='Visitar'
           />
         </div>
         <div className="col-4">
@@ -31,6 +32,7 @@ const jobs = () => {
             title="web-slider"
             description="Descripción de la tarjeta."
             link="https://juamaya.github.io/web-slider"
+            btnLink='Visitar'
           />
         </div>
 
@@ -40,6 +42,7 @@ const jobs = () => {
             title="Rick and Morty"
             description="Descripción de la tarjeta."
             link="https://juamaya.github.io/morty"
+            btnLink='Visitar'
           />
         </div>
       </div>
