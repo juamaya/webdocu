@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My webdocu',
+  title: 'My Site',
  
   favicon: 'img/favicon.ico',
 
@@ -66,7 +66,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/juan.jpg',
         },
         items: [
           {

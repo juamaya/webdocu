@@ -24,7 +24,7 @@ const Formulario = () => {
       icon: "success",
       title: "Your data has been sended.",
       showConfirmButton: false,
-      timer: 2000,
+      timer: 3000,
     });
   };
 

@@ -28,6 +28,12 @@
   font-size: 1.2rem;
   text-align: center;
 }
+
+.formulario p {
+  background: red;
+   
+  text-align: center;
+}
 .btn-send {
   font-size: 1.5rem;
   background: #2811bb;
