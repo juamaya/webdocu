@@ -1,0 +1,35 @@
+  .card {
+    background-color: rgb(134, 138, 138);
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  
+  
+  .image {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: white;
+  }
+  

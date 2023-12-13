@@ -1,0 +1,123 @@
+:root {
+  --tiempo: .5s;
+  --primary-color: hsl(214, 84%, 56%);
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container-img{
+    border: 3px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 3px;
+    margin: auto;
+}
+
+span {
+  color:white;
+
+}
+.card-barras {
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+  width: 800px;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 3px;
+  border: 5px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: rgba(9, 17, 30, 0.975);
+}
+
+.skills {
+  text-align: right;
+  padding: 3px;
+  margin: 5px;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+}
+ 
+
+.html {
+  background-color: var(--primary-color);
+  animation: fillhtml var(--tiempo) forwards;
+}
+.css {
+  background-color: var(--primary-color);
+  animation: fillcss var(--tiempo) forwards;
+}
+
+.javascript {
+  background-color: var(--primary-color);
+  animation: filljavascript var(--tiempo) forwards;
+}
+
+.react {
+  background-color: var(--primary-color);
+  animation: fillreact var(--tiempo) forwards;
+}
+
+.plc {
+  background-color: var(--primary-color);
+  animation: fillplc var(--tiempo) forwards;
+}
+
+@keyframes fillhtml {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes fillcss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes filljavascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes fillreact {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes fillplc {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-barras {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card-barras {
+    max-width: 90%;
+  }
+}
