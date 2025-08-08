@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocuweb=self.webpackChunkdocuweb||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/webdocu/blog/first-blog-post","unlisted":false}]}')}}]);
